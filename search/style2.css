@@ -1,0 +1,36 @@
+body{
+  background-image:url('../images/search_bg_img.jpg'); 
+  background-repeat: no-repeat;
+  background-position: 380px 100px;
+  background-size: 50%;
+  height: 100vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    border:solid black 2px;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: medium;
+    height: 29px;
+    width: 400px;
+    outline: none;
+  }
+
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: solid black 2px;
+    border-radius: 0px 5px 5px 0px;
+    height: 52px;
+    font-size: medium;
+    cursor: pointer;
+  }
